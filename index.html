@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>OMDb template</title>
+	<!-- Max-width: 70% nedan, så att inte texten om 'Plot' sträcker sig för långt  -->
+	<style>
+body {max-width: 70%;} 
+	
+.poster {
+  display: flex;
+  flex-direction: row;
+  }
+
+.poster > div {
+	margin-right: 2em;
+  }
+   </style>
+</head>
+<body>
+	<nav id="main-nav">
+		
+		<a href="#" id="about">Show information about the movie "Casino"</a>
+		
+	</nav>
+
+	<div id="content"></div>
+	<p> </p>
+	<div class="poster">
+		<div> <img src="poster.jpeg" alt="Movie poster showing Robert De Niro, Sharon Stone and Joe Pesci"> </div>
+		<div> <img src="smiling.jpeg" alt="Robert De Niro and Sharon Stone smiling at eachother" height="201"> </div>
+		<!-- height anges för den senare bilden så att bilderna får samma höjd -->
+	</div>
+	<script src="js/main.js"></script>
+</body>
+</html>
